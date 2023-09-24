@@ -12,3 +12,8 @@ docs/
 
 # Dotenv file
 .env
+
+.secret
+.infura
+.etherscan
+.account-private-key
