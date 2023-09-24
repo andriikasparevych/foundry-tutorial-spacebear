@@ -23,7 +23,7 @@ contract SpacebearTest is Test {
      "https://ethereum-blockchain-developer.com/2022-06-nft-truffle-hardhat-foundry/nftdata/spacebear_1.json");
   }
 
-  function testPurchaseNft() public {
+  function testNftCreationWrongOwner() public {
     address purchaser = address(0x1);
     vm.startPrank(purchaser);
 
